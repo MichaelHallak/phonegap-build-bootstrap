@@ -4,15 +4,17 @@
 	id		= "com.you.www"
 	version 	= "1.0.0">
 
-	<name>Your Mind Blowing App</name>
+	<name>Reddits</name>
 
 	<description>
-		A brilliant mobile application written by you and now available on every platform thanks to Kendo UI Mobile and PhoneGap Build.
+		Getting started with my first Kendo UI project.
+        
+        "A brilliant mobile application written by you and now available on every platform thanks to Kendo UI Mobile and PhoneGap Build."
 	</description>
 
 	<author href="build.phonegap.com"
-		email="">
-		Mr. Mobile Madness
+		email="shockeere@gmail.com">
+		Michael Hallak
 	</author>
 
 	<icon src="icon.png" gap:role="default" />
