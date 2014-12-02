@@ -18,6 +18,11 @@
 
 		<script src="phonegap.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript" src="assets/js/app.js"></script>
+        <script>
+            new kendo.mobile.Application($(document.body), {
+                                         platform: "ios8"
+                                         });
+            </script>
 
 	</head>
 	<body>
@@ -46,6 +51,12 @@
 
 		<div data-role="view" data-show="MYAPP.show" data-layout="main-layout" id="home" data-title="Home">
 			<p>Home</p>
+            <input id="datepicker" />
+            <script>
+                $(function() {
+                  $("#datepicker").kendoDatePicker();
+                  });
+                </script>
 		</div>
 
 		<div data-role="view" data-layout="main-layout" id="settings" data-title="Settings">
