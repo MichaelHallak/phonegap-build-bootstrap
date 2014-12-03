@@ -8,3 +8,7 @@ body {
 .km-inventory:before {
     content: "\e0ab";
 }
+.km-assemblies:after,
+.km-assemblies:before {
+    content: "\e0a6";
+}
