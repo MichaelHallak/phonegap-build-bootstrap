@@ -1,3 +1,10 @@
 body {
   display: none;
 }
+.km-arrow-e:before {
+    content: "\e000";
+}
+.km-inventory:after,
+.km-inventory:before {
+    content: "\e0ab";
+}
